@@ -1718,4 +1718,4 @@ ScriptsOnlyBuild:
   platform: 19
   scenePathNames:
   - Assets/Engine/Scenes/Mansion.unity
-  playerPath: C:/Development/Mansion/Build/Mansion.exe
+  playerPath: F:/Mansion-build/Mansion.exe
