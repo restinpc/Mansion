@@ -9783,6 +9783,10 @@ PrefabInstance:
       propertyPath: field of view
       value: 160
       objectReference: {fileID: 0}
+    - target: {fileID: 2353626, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 11455280, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
       propertyPath: m_Enabled
       value: 1

@@ -40,6 +40,7 @@ namespace Engine
             if ((SceneManager.GetActiveScene().name != Scene.Loading.ToString() || !isStarted) && audioClipArray != null && audioClipArray.Length > 0)
             {
                 audioSource.PlayOneShot(audioClipArray[0]);
+                Cursor.visible = false;
             }
             if (activeScene != Scene.Loading.ToString())
             {
