@@ -3,7 +3,12 @@ guid: 240fe031c310663459a0a68fac3d7b98
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cacturs_1
+    second: {fileID: 2100000, guid: 0fe62056050122646be678479f583b7a, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
