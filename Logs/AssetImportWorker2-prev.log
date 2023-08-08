@@ -15,7 +15,7 @@ F:/Mansion
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-65308
+58233
 Successfully changed project path to: F:/Mansion
 F:/Mansion
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ F:/Mansion
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [400] Host "[IP] 192.168.0.106 [Port] 0 [Flags] 2 [Guid] 3529425527 [EditorId] 3529425527 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-FFPKB5C) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [30256] Host "[IP] 192.168.0.106 [Port] 0 [Flags] 2 [Guid] 2188229102 [EditorId] 2188229102 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-FFPKB5C) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [400] Host "[IP] 192.168.0.106 [Port] 0 [Flags] 2 [Guid] 3529425527 [EditorId] 3529425527 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-FFPKB5C) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [30256] Host "[IP] 192.168.0.106 [Port] 0 [Flags] 2 [Guid] 2188229102 [EditorId] 2188229102 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-FFPKB5C) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 110.95 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 59.01 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.15f1 (e8e88683f834)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/Resources/UnitySubsystems
@@ -67,74 +67,74 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56420
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56828
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.086235 seconds.
+Registered in 0.005956 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 38.03 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 36.68 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.907 seconds
+- Completed reload, in  0.538 seconds
 Domain Reload Profiling:
-	ReloadAssembly (4907ms)
-		BeginReloadAssembly (3618ms)
+	ReloadAssembly (539ms)
+		BeginReloadAssembly (67ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (841ms)
-			LoadAssemblies (3613ms)
+		EndReloadAssembly (359ms)
+			LoadAssemblies (65ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (562ms)
+			SetupTypeCache (100ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (25ms)
-			SetupLoadedEditorAssemblies (209ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (187ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (38ms)
+				RefreshPlugins (37ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (113ms)
-				ProcessInitializeOnLoadMethodAttributes (50ms)
+				ProcessInitializeOnLoadAttributes (104ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002283 seconds.
+Registered in 0.002416 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.52 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 0.50 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Package Manager log level set to [2]
 Mono: successfully reloaded assembly
-- Completed reload, in  4.884 seconds
+- Completed reload, in  0.793 seconds
 Domain Reload Profiling:
-	ReloadAssembly (4885ms)
-		BeginReloadAssembly (104ms)
+	ReloadAssembly (793ms)
+		BeginReloadAssembly (97ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (4644ms)
-			LoadAssemblies (2789ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (587ms)
+			LoadAssemblies (65ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (550ms)
+			SetupTypeCache (178ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (1230ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (269ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (54ms)
-				ProcessInitializeOnLoadAttributes (278ms)
-				ProcessInitializeOnLoadMethodAttributes (884ms)
+				BeforeProcessingInitializeOnLoad (50ms)
+				ProcessInitializeOnLoadAttributes (184ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
 				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -143,12 +143,12 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.59 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 0.54 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2067 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 28 unused Assets / (337.4 KB). Loaded Objects now: 2569.
-Memory consumption went from 103.8 MB to 103.4 MB.
-Total: 3.532900 ms (FindLiveObjects: 0.177200 ms CreateObjectMapping: 0.118800 ms MarkObjects: 2.980200 ms  DeleteObjects: 0.255700 ms)
+Unloading 28 unused Assets / (337.2 KB). Loaded Objects now: 2569.
+Memory consumption went from 103.8 MB to 103.5 MB.
+Total: 2.681200 ms (FindLiveObjects: 0.226500 ms CreateObjectMapping: 0.107900 ms MarkObjects: 2.128100 ms  DeleteObjects: 0.218000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -162,143 +162,67 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1178827.911606 seconds.
-  path: Assets/Engine/Models/Mansion/701.fbx
-  artifactKey: Guid(1fb1cf3ead2a8cf45b84626694176ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Engine/Models/Mansion/701.fbx using Guid(1fb1cf3ead2a8cf45b84626694176ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f073057618adddda8722542ce8f62e6') in 1.343610 seconds 
+  Time since last request: 1272141.592742 seconds.
+  path: Assets/Engine/Models/Mansion/mans.fbx
+  artifactKey: Guid(2f125928220e53f48ac558bef9b4c796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Engine/Models/Mansion/mans.fbx using Guid(2f125928220e53f48ac558bef9b4c796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3b89949498bdbd5bd3b3a0acca96c36') in 1.013264 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 88.841774 seconds.
-  path: Assets/Engine/Models/Mansion/701.fbx
-  artifactKey: Guid(1fb1cf3ead2a8cf45b84626694176ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Engine/Models/Mansion/701.fbx using Guid(1fb1cf3ead2a8cf45b84626694176ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90c407eb209c1d8afc5e1bb6c84b0677') in 1.083250 seconds 
+  Time since last request: 39.650600 seconds.
+  path: Assets/Engine/Models/test/mans1.fbx
+  artifactKey: Guid(2110957df20bcf0468e3d035c4b34291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Engine/Models/test/mans1.fbx using Guid(2110957df20bcf0468e3d035c4b34291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e7da083efe1ecb07b36dc5f848b8700') in 0.828414 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 380.255540 seconds.
-  path: Assets/Engine/Models/Mansion/701.fbx
-  artifactKey: Guid(1fb1cf3ead2a8cf45b84626694176ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Engine/Models/Mansion/701.fbx using Guid(1fb1cf3ead2a8cf45b84626694176ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35014f36569d99df43785d246b941f37') in 1.113189 seconds 
+  Time since last request: 191.177785 seconds.
+  path: Assets/Engine/Models/Mansion/mans2.fbx
+  artifactKey: Guid(871f81ef8f62c474d967f3a32e7d3c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Engine/Models/Mansion/mans2.fbx using Guid(871f81ef8f62c474d967f3a32e7d3c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca1f4348f752b92019a6f05ad90f7e8a') in 0.974121 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.930346 seconds.
-  path: Assets/Engine/Models/Mansion/701.fbx
-  artifactKey: Guid(1fb1cf3ead2a8cf45b84626694176ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Engine/Models/Mansion/701.fbx using Guid(1fb1cf3ead2a8cf45b84626694176ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80cfc575b5f2685aa697550b7d065ff0') in 1.018331 seconds 
+  Time since last request: 149.310619 seconds.
+  path: Assets/Engine/Models/Mansion/mans2.fbx
+  artifactKey: Guid(871f81ef8f62c474d967f3a32e7d3c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Engine/Models/Mansion/mans2.fbx using Guid(871f81ef8f62c474d967f3a32e7d3c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3f5277169d3185cec4e5af952366174') in 0.899514 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 31.634246 seconds.
-  path: Assets/Engine/Models/Mansion/701.fbx
-  artifactKey: Guid(1fb1cf3ead2a8cf45b84626694176ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Engine/Models/Mansion/701.fbx using Guid(1fb1cf3ead2a8cf45b84626694176ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b2b15993aa0a90db071cf9c042f8323') in 1.385095 seconds 
+  Time since last request: 215.380910 seconds.
+  path: Assets/Engine/Models/Mansion/mans3.fbx
+  artifactKey: Guid(5a4ff7891d4297b46a6f6988818fb49e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Engine/Models/Mansion/mans3.fbx using Guid(5a4ff7891d4297b46a6f6988818fb49e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dfa1420fad753aa860da81433eead07') in 0.137317 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 193.017380 seconds.
-  path: Assets/Engine/Models/Mansion/Textures/map 1.png
-  artifactKey: Guid(be42be4655a78804ba5f8912de66004b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Engine/Models/Mansion/Textures/map 1.png using Guid(be42be4655a78804ba5f8912de66004b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d3283d0370b74760881aa3ec6319981') in 0.042162 seconds 
+  Time since last request: 22.385541 seconds.
+  path: Assets/Engine/Models/Mansion/mans3.fbx
+  artifactKey: Guid(5a4ff7891d4297b46a6f6988818fb49e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Engine/Models/Mansion/mans3.fbx using Guid(5a4ff7891d4297b46a6f6988818fb49e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '622e3797fe18e2744cd372efe90c09e8') in 0.099708 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 106.952457 seconds.
-  path: Assets/Engine/Models/Mansion/Materials/Materials/map.mat
-  artifactKey: Guid(3301b80944cd07b4688a4a389f0ddd5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Engine/Models/Mansion/Materials/Materials/map.mat using Guid(3301b80944cd07b4688a4a389f0ddd5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2c1238568607f139fb22769ddc9d900') in 0.020738 seconds 
+  Time since last request: 28.578717 seconds.
+  path: Assets/Engine/Models/Tree2
+  artifactKey: Guid(1e312964e35f9fa4ba639d52525e3750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Engine/Models/Tree2 using Guid(1e312964e35f9fa4ba639d52525e3750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a202b5d8c82ea69c1d89434b0ffbfb3') in 0.008159 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1072.665023 seconds.
-  path: Assets/Engine/Models/Mansion/702.fbx
-  artifactKey: Guid(f1865663c68064f43bd13931dddb8488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Engine/Models/Mansion/702.fbx using Guid(f1865663c68064f43bd13931dddb8488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f660c4d8d9b6f836754f6cdeee3ffed9') in 1.080154 seconds 
+  Time since last request: 25.956820 seconds.
+  path: Assets/Engine/Models/Mansion/mans3.fbx
+  artifactKey: Guid(5a4ff7891d4297b46a6f6988818fb49e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Engine/Models/Mansion/mans3.fbx using Guid(5a4ff7891d4297b46a6f6988818fb49e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'debede75b3c6f39604577deda59b5635') in 0.071469 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 28.496654 seconds.
-  path: Assets/Engine/Models/Mansion/702.fbx
-  artifactKey: Guid(f1865663c68064f43bd13931dddb8488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Engine/Models/Mansion/702.fbx using Guid(f1865663c68064f43bd13931dddb8488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eefa1bfcd2f89aec01f48c6279fc116c') in 0.914417 seconds 
+  Time since last request: 230.089851 seconds.
+  path: Assets/Engine/Models/Mansion/mans3.fbx
+  artifactKey: Guid(5a4ff7891d4297b46a6f6988818fb49e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Engine/Models/Mansion/mans3.fbx using Guid(5a4ff7891d4297b46a6f6988818fb49e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20b95d23d7fa5490919c5f6e656c9ab4') in 0.778946 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 10.556697 seconds.
-  path: Assets/Engine/Models/Mansion/702.fbx
-  artifactKey: Guid(f1865663c68064f43bd13931dddb8488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Engine/Models/Mansion/702.fbx using Guid(f1865663c68064f43bd13931dddb8488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2142dd22907fd1f94f7c95309a0d799') in 0.909406 seconds 
+  Time since last request: 746.078494 seconds.
+  path: Assets/Engine/Models/Mansion/Textures/mans3.fbx
+  artifactKey: Guid(5a4ff7891d4297b46a6f6988818fb49e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Engine/Models/Mansion/Textures/mans3.fbx using Guid(5a4ff7891d4297b46a6f6988818fb49e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '520669aaccc829b9c3d82be75a26da49') in 0.799623 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.828276 seconds.
-  path: Assets/Engine/Models/Mansion/702.fbx
-  artifactKey: Guid(f1865663c68064f43bd13931dddb8488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Engine/Models/Mansion/702.fbx using Guid(f1865663c68064f43bd13931dddb8488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b065ca22de6c99b5708df93d1ed1ea2f') in 1.012870 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 13.095899 seconds.
-  path: Assets/Engine/Models/Mansion/702.fbx
-  artifactKey: Guid(f1865663c68064f43bd13931dddb8488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Engine/Models/Mansion/702.fbx using Guid(f1865663c68064f43bd13931dddb8488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3087262c99883b40db9b78bd62167c2') in 0.791727 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 36.054412 seconds.
-  path: Assets/Engine/Models/Mansion/702.fbx
-  artifactKey: Guid(f1865663c68064f43bd13931dddb8488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Engine/Models/Mansion/702.fbx using Guid(f1865663c68064f43bd13931dddb8488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaff36cfa95ddd3e3d4b3eff01b497f8') in 0.784824 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 38.994193 seconds.
-  path: Assets/Engine/Models/Mansion/Materials/Materials/Default_Material.mat
-  artifactKey: Guid(e4f14ba653f366d429f7f1feb65bd0f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Engine/Models/Mansion/Materials/Materials/Default_Material.mat using Guid(e4f14ba653f366d429f7f1feb65bd0f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83ad74f8b0e31f5ab7d403a952920a69') in 0.020547 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Engine/Models/Mansion/Materials/Materials/lambert15.mat
-  artifactKey: Guid(a884068b86790ef4c9f5f9c6901e77eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Engine/Models/Mansion/Materials/Materials/lambert15.mat using Guid(a884068b86790ef4c9f5f9c6901e77eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75d931370285cb1f202e8638782632fc') in 0.040201 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Engine/Models/Mansion/Materials/Materials/lambert115.mat
-  artifactKey: Guid(276eb43945ec88848b61edc33126171a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Engine/Models/Mansion/Materials/Materials/lambert115.mat using Guid(276eb43945ec88848b61edc33126171a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9329de264c5663655f015c4f12ba093') in 0.013987 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Engine/Models/Mansion/Materials/Materials/lambert119.mat
-  artifactKey: Guid(b1ae1c453663e8944a1e94dbfa9904da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Engine/Models/Mansion/Materials/Materials/lambert119.mat using Guid(b1ae1c453663e8944a1e94dbfa9904da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20eb743d7efe8dd5917d49aaf72499b8') in 0.024806 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000084 seconds.
-  path: Assets/Engine/Models/Mansion/Materials/Materials/lambert114.mat
-  artifactKey: Guid(f04b2de8e4641724db3dd23d2ab5e63a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Engine/Models/Mansion/Materials/Materials/lambert114.mat using Guid(f04b2de8e4641724db3dd23d2ab5e63a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c6f6261e9a59853c93c78b074d15ed7') in 0.023881 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Engine/Models/Mansion/Materials/Materials/lambert116.mat
-  artifactKey: Guid(dd2439afe4ede2844bb39da4b59302c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Engine/Models/Mansion/Materials/Materials/lambert116.mat using Guid(dd2439afe4ede2844bb39da4b59302c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f41fa95e4f130bdd7079b2acc20d456c') in 0.023451 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Engine/Models/Mansion/Materials/Materials/lambert120.mat
-  artifactKey: Guid(f261ab44b20159146b9dac116e04808c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Engine/Models/Mansion/Materials/Materials/lambert120.mat using Guid(f261ab44b20159146b9dac116e04808c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee2251347ecd339087cef714a31a92c3') in 0.047785 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 42.282253 seconds.
-  path: Assets/Engine/Models/Mansion/Materials/lambert1 1.mat
-  artifactKey: Guid(073611719391bc142a29d4919692cf3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Engine/Models/Mansion/Materials/lambert1 1.mat using Guid(073611719391bc142a29d4919692cf3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23b0931803499e324651401c97a2cd90') in 0.029753 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Engine/Models/Mansion/Materials/lambert120 1.mat
-  artifactKey: Guid(dca65bc4dc0ff2940abc4e53f70ed94c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Engine/Models/Mansion/Materials/lambert120 1.mat using Guid(dca65bc4dc0ff2940abc4e53f70ed94c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '134006a0f5a3969220259daa8abc0603') in 0.027124 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Engine/Models/Mansion/Materials/lambert119 1.mat
-  artifactKey: Guid(9b9c83abbef59ca4db129e74b977b19c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Engine/Models/Mansion/Materials/lambert119 1.mat using Guid(9b9c83abbef59ca4db129e74b977b19c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b7570bddc53523f2600cc276160ba20') in 0.021538 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+  Time since last request: 18.904591 seconds.
+  path: Assets/Engine/Models/Mansion/Textures/mans3.fbx
+  artifactKey: Guid(5a4ff7891d4297b46a6f6988818fb49e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Engine/Models/Mansion/Textures/mans3.fbx using Guid(5a4ff7891d4297b46a6f6988818fb49e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '069e6f09e22ce76e52672f15249acf17') in 1.057848 seconds 
