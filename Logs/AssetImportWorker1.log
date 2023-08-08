@@ -15,7 +15,7 @@ F:/Mansion
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-65308
+58233
 Successfully changed project path to: F:/Mansion
 F:/Mansion
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ F:/Mansion
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [7688] Host "[IP] 192.168.0.106 [Port] 0 [Flags] 2 [Guid] 3834219520 [EditorId] 3834219520 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-FFPKB5C) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [33240] Host "[IP] 192.168.0.106 [Port] 0 [Flags] 2 [Guid] 1248905791 [EditorId] 1248905791 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-FFPKB5C) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [7688] Host "[IP] 192.168.0.106 [Port] 0 [Flags] 2 [Guid] 3834219520 [EditorId] 3834219520 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-FFPKB5C) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [33240] Host "[IP] 192.168.0.106 [Port] 0 [Flags] 2 [Guid] 1248905791 [EditorId] 1248905791 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-FFPKB5C) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 39.36 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 37.01 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.15f1 (e8e88683f834)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/Resources/UnitySubsystems
@@ -67,37 +67,37 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56068
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56868
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005606 seconds.
+Registered in 0.005484 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 44.24 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 34.52 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.560 seconds
+- Completed reload, in  0.522 seconds
 Domain Reload Profiling:
-	ReloadAssembly (560ms)
-		BeginReloadAssembly (60ms)
+	ReloadAssembly (522ms)
+		BeginReloadAssembly (58ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (398ms)
-			LoadAssemblies (58ms)
+		EndReloadAssembly (349ms)
+			LoadAssemblies (56ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (97ms)
+			SetupTypeCache (91ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (24ms)
-			SetupLoadedEditorAssemblies (231ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (189ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (44ms)
+				RefreshPlugins (35ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (140ms)
+				ProcessInitializeOnLoadAttributes (107ms)
 				ProcessInitializeOnLoadMethodAttributes (39ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -105,37 +105,37 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002574 seconds.
+Registered in 0.002403 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.48 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 0.54 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Package Manager log level set to [2]
 Mono: successfully reloaded assembly
-- Completed reload, in  0.803 seconds
+- Completed reload, in  0.793 seconds
 Domain Reload Profiling:
-	ReloadAssembly (804ms)
-		BeginReloadAssembly (91ms)
+	ReloadAssembly (794ms)
+		BeginReloadAssembly (99ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (602ms)
-			LoadAssemblies (63ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (592ms)
+			LoadAssemblies (60ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (183ms)
+			SetupTypeCache (179ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (46ms)
-			SetupLoadedEditorAssemblies (271ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (273ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
 				BeforeProcessingInitializeOnLoad (50ms)
-				ProcessInitializeOnLoadAttributes (186ms)
+				ProcessInitializeOnLoadAttributes (189ms)
 				ProcessInitializeOnLoadMethodAttributes (22ms)
-				AfterProcessingInitializeOnLoad (6ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (5ms)
@@ -146,9 +146,9 @@ Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 second
 Refreshing native plugins compatible for Editor in 0.54 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2067 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 28 unused Assets / (337.2 KB). Loaded Objects now: 2567.
-Memory consumption went from 103.4 MB to 103.1 MB.
-Total: 2.643300 ms (FindLiveObjects: 0.177100 ms CreateObjectMapping: 0.098700 ms MarkObjects: 2.139300 ms  DeleteObjects: 0.227300 ms)
+Unloading 28 unused Assets / (337.2 KB). Loaded Objects now: 2569.
+Memory consumption went from 103.7 MB to 103.4 MB.
+Total: 2.599600 ms (FindLiveObjects: 0.179900 ms CreateObjectMapping: 0.103100 ms MarkObjects: 2.078900 ms  DeleteObjects: 0.236800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -162,88 +162,70 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1106997.004326 seconds.
-  path: Assets/Engine/Models/Mansion/Materials/map.mat
-  artifactKey: Guid(b544e4383f8ed284a931263f9b432c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Engine/Models/Mansion/Materials/map.mat using Guid(b544e4383f8ed284a931263f9b432c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eadd32692f26d7146a0d31f6ed7a077') in 0.173453 seconds 
+  Time since last request: 1272054.232609 seconds.
+  path: Assets/Engine/Models/treepack1/bark001-normal.jpg
+  artifactKey: Guid(a56d72f8e9635fc43827f6fd5be2b965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Engine/Models/treepack1/bark001-normal.jpg using Guid(a56d72f8e9635fc43827f6fd5be2b965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a81dffd8aa267c5949b99d6853d4fe22') in 0.090607 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 3077.706725 seconds.
-  path: Assets/Engine/Models/Mansion/Materials/Queen_Size_Bed_With_Paprika_Sheets_White_V1_Paprika_Mat1 1.mat
-  artifactKey: Guid(90e864c95ddfe174b95b0d613082087e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Engine/Models/Mansion/Materials/Queen_Size_Bed_With_Paprika_Sheets_White_V1_Paprika_Mat1 1.mat using Guid(90e864c95ddfe174b95b0d613082087e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88172ae5d8fbb667239bd0126d2361f8') in 0.075326 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 237.144873 seconds.
-  path: Assets/Engine/Models/Mansion/Materials/lambert15.mat
-  artifactKey: Guid(584fd08eda9579e4081169cec823d2b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Engine/Models/Mansion/Materials/lambert15.mat using Guid(584fd08eda9579e4081169cec823d2b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2dfcbea19447b2eb25c87f6344561c7') in 0.038301 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 67123.048724 seconds.
-  path: Assets/Engine/Models/Building/Materials/Materials/map.mat
-  artifactKey: Guid(d579bc7d73ce5bd49acb4a0cbb79499c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Engine/Models/Building/Materials/Materials/map.mat using Guid(d579bc7d73ce5bd49acb4a0cbb79499c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cfe78a5959195d079b2ba079081f672') in 0.052257 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 282.206120 seconds.
-  path: Assets/Engine/Models/Mansion/Materials/lambert120.mat
-  artifactKey: Guid(f9056635f0bccfb4cae69b8e3df4b4c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Engine/Models/Mansion/Materials/lambert120.mat using Guid(f9056635f0bccfb4cae69b8e3df4b4c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daad1615edc5bac58aa12448ef754f79') in 0.048087 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 199.412514 seconds.
-  path: Assets/Engine/Models/Mansion/Materials/Texture_map_1.mat
-  artifactKey: Guid(a8a88ad904d74d8468b686782615594f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Engine/Models/Mansion/Materials/Texture_map_1.mat using Guid(a8a88ad904d74d8468b686782615594f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '611a400a598c28631b58be17de86bf55') in 0.019354 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 541.103855 seconds.
-  path: Assets/Engine/Models/Mansion/Materials/700-lambert1.mat
-  artifactKey: Guid(fe8a00833eeb1964abcf3b3f66d35322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Engine/Models/Mansion/Materials/700-lambert1.mat using Guid(fe8a00833eeb1964abcf3b3f66d35322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f01772dd3ca58ba4a41c04994e2caef') in 0.026681 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.024110 seconds.
-  path: Assets/Engine/Models/Mansion/Materials/700-lambert15.mat
-  artifactKey: Guid(869093e9753e57d478563df1b054abea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Engine/Models/Mansion/Materials/700-lambert15.mat using Guid(869093e9753e57d478563df1b054abea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e08961ddfc754a15afcb26bec08656a') in 0.023478 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Engine/Models/Mansion/Materials/700-Material.002.mat
-  artifactKey: Guid(b82d6e2ce7693704ca4d8c9453a03fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Engine/Models/Mansion/Materials/700-Material.002.mat using Guid(b82d6e2ce7693704ca4d8c9453a03fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26864e610a5a44f6bdb3a777eb995547') in 0.029916 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000059 seconds.
-  path: Assets/Engine/Models/Mansion/Materials/700-Queen_Size_Bed_With_Paprika_Sheets_White_V1_White_Mat__wood_1.mat
-  artifactKey: Guid(c81b8b57042231c409902b08d9e855c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Engine/Models/Mansion/Materials/700-Queen_Size_Bed_With_Paprika_Sheets_White_V1_White_Mat__wood_1.mat using Guid(c81b8b57042231c409902b08d9e855c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bda6af01675e5c48b4061b02cc678b5') in 0.026045 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000071 seconds.
-  path: Assets/Engine/Models/Mansion/Materials/700-lambert115.mat
-  artifactKey: Guid(635062992707f0a4f92797863697f1a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Engine/Models/Mansion/Materials/700-lambert115.mat using Guid(635062992707f0a4f92797863697f1a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c6ffa2d54caa9e503bf105381f8f7cf') in 0.032211 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Engine/Models/Mansion/Materials/700-Queen_Size_Bed_With_Paprika_Sheets_White_V1_Paprika_Mat1.mat
-  artifactKey: Guid(21bffdc8f6405114487815d4144c1ed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Engine/Models/Mansion/Materials/700-Queen_Size_Bed_With_Paprika_Sheets_White_V1_Paprika_Mat1.mat using Guid(21bffdc8f6405114487815d4144c1ed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfb4203b11c78ea8b2a341843134692a') in 0.027830 seconds 
+  Time since last request: 0.000021 seconds.
+  path: Assets/Engine/Models/treepack1/tilebark2normal.jpg
+  artifactKey: Guid(ceaaeff662ec0ba4c8f8a3b6e3d184c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Engine/Models/treepack1/tilebark2normal.jpg using Guid(ceaaeff662ec0ba4c8f8a3b6e3d184c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec866b60f3e5d95cc84b5b9548afe006') in 0.022575 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000027 seconds.
-  path: Assets/Engine/Models/Mansion/Materials/700-lambert116.mat
-  artifactKey: Guid(747be81d51919d84890a66a80c4f8b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Engine/Models/Mansion/Materials/700-lambert116.mat using Guid(747be81d51919d84890a66a80c4f8b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aab6c32162caa203d33415850d93322a') in 0.024293 seconds 
+  path: Assets/Engine/Models/treepack1/combobranch2normal.png
+  artifactKey: Guid(80ca7cc9941efc04199ded5de470046f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Engine/Models/treepack1/combobranch2normal.png using Guid(80ca7cc9941efc04199ded5de470046f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98b9652913c39b849f2cfa382a2ccab7') in 0.024978 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000059 seconds.
-  path: Assets/Engine/Models/Mansion/Materials/700-Material.004.mat
-  artifactKey: Guid(c711efcb48549454a8015ede75c2b0ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Engine/Models/Mansion/Materials/700-Material.004.mat using Guid(c711efcb48549454a8015ede75c2b0ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd33a756c768a12b604e5d593e798c637') in 0.017629 seconds 
+  Time since last request: 0.000027 seconds.
+  path: Assets/Engine/Models/treepack1/combobranch3spec.png
+  artifactKey: Guid(54f4284b13be5394cb233fe10245fb42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Engine/Models/treepack1/combobranch3spec.png using Guid(54f4284b13be5394cb233fe10245fb42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9336f6159123104070925926da8fdfe7') in 0.025953 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Engine/Models/treepack1/combobranch4normal.png
+  artifactKey: Guid(32722b2bade5fbe47b8111ae8c969d89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Engine/Models/treepack1/combobranch4normal.png using Guid(32722b2bade5fbe47b8111ae8c969d89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1209b47616a0c44b2dc2e3cc56856b87') in 0.020369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Engine/Models/treepack1/bark004-color.jpg
+  artifactKey: Guid(1d0f5198164d91146a294ef3bb2da700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Engine/Models/treepack1/bark004-color.jpg using Guid(1d0f5198164d91146a294ef3bb2da700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b57c53f99b259079615640264532cb5e') in 0.020941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Engine/Models/treepack1/combobranch4.png
+  artifactKey: Guid(26427b33188bc1d4cb0db14d7139aa1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Engine/Models/treepack1/combobranch4.png using Guid(26427b33188bc1d4cb0db14d7139aa1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea47acf7127a6e333f38cdf74a1b4ad6') in 0.024490 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Engine/Models/treepack1/combobranch3.png
+  artifactKey: Guid(3f9c826c4d78256479cbb60d65f32f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Engine/Models/treepack1/combobranch3.png using Guid(3f9c826c4d78256479cbb60d65f32f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f8ed0f0977df7fd93feedaa97e5a677') in 0.017908 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Engine/Models/treepack1/branch-texturespec-png.png
+  artifactKey: Guid(8556f6e0a4a884e4a9f28297a7eb541b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Engine/Models/treepack1/branch-texturespec-png.png using Guid(8556f6e0a4a884e4a9f28297a7eb541b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b2c4f00d302a52f23857f326351e9d7') in 0.027679 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Engine/Models/treepack1/tilebark2.jpg
+  artifactKey: Guid(de7a2fef0fb563c478c9f2b05c404e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Engine/Models/treepack1/tilebark2.jpg using Guid(de7a2fef0fb563c478c9f2b05c404e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5016d4596a8f01a09da9b38d7fda2eb7') in 0.016585 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Engine/Models/treepack1/treepack1.blend
+  artifactKey: Guid(d2368b88526fec24e948bd7510dfa077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Engine/Models/treepack1/treepack1.blend using Guid(d2368b88526fec24e948bd7510dfa077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af00c7f3964412f95aee049ef9507bca') in 0.201439 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting
