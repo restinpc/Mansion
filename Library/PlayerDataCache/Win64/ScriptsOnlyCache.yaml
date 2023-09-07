@@ -35,6 +35,8 @@ ScriptsOnlyBuild:
     - Valve.VR.SteamVR_Settings
     - Valve.VR.SteamVR_Skeleton_Pose
     - Valve.VR.SteamVR_Skeleton_Poser
+    SteamVR_Editor.dll:
+    - Valve.VR.SteamVR_UnitySettingsWindow
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro.dll:
@@ -169,91 +171,91 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1602}
     - Class: 114
-      Script: {instanceID: 1688}
+      Script: {instanceID: 1698}
     - Class: 114
-      Script: {instanceID: 1732}
+      Script: {instanceID: 1742}
     - Class: 114
-      Script: {instanceID: 1878}
+      Script: {instanceID: 1888}
     - Class: 114
-      Script: {instanceID: 1928}
+      Script: {instanceID: 1938}
     - Class: 114
-      Script: {instanceID: 1970}
+      Script: {instanceID: 1980}
     - Class: 114
-      Script: {instanceID: 2198}
+      Script: {instanceID: 2208}
     - Class: 114
-      Script: {instanceID: 2204}
+      Script: {instanceID: 2214}
     - Class: 114
-      Script: {instanceID: 2362}
+      Script: {instanceID: 2372}
     - Class: 114
-      Script: {instanceID: 2366}
+      Script: {instanceID: 2376}
     - Class: 114
-      Script: {instanceID: 2438}
+      Script: {instanceID: 2448}
     - Class: 114
-      Script: {instanceID: 2554}
+      Script: {instanceID: 2564}
     - Class: 114
-      Script: {instanceID: 2764}
+      Script: {instanceID: 2774}
     - Class: 114
-      Script: {instanceID: 2898}
+      Script: {instanceID: 2908}
     - Class: 114
-      Script: {instanceID: 2942}
+      Script: {instanceID: 2952}
     - Class: 114
-      Script: {instanceID: 2988}
+      Script: {instanceID: 2998}
     - Class: 114
-      Script: {instanceID: 3000}
+      Script: {instanceID: 3010}
     - Class: 114
-      Script: {instanceID: 3038}
+      Script: {instanceID: 3048}
     - Class: 114
-      Script: {instanceID: 3178}
+      Script: {instanceID: 3188}
     - Class: 114
-      Script: {instanceID: 3388}
+      Script: {instanceID: 3398}
     - Class: 114
-      Script: {instanceID: 3496}
+      Script: {instanceID: 3506}
     - Class: 114
-      Script: {instanceID: 3588}
+      Script: {instanceID: 3598}
     - Class: 114
-      Script: {instanceID: 3784}
+      Script: {instanceID: 3794}
     - Class: 114
-      Script: {instanceID: 3846}
+      Script: {instanceID: 3856}
     - Class: 114
-      Script: {instanceID: 3852}
+      Script: {instanceID: 3862}
     - Class: 114
-      Script: {instanceID: 3932}
+      Script: {instanceID: 3942}
     - Class: 114
-      Script: {instanceID: 4032}
+      Script: {instanceID: 4042}
     - Class: 114
-      Script: {instanceID: 4072}
-    - Class: 114
-      Script: {instanceID: 4130}
+      Script: {instanceID: 4082}
     - Class: 114
       Script: {instanceID: 4140}
     - Class: 114
-      Script: {instanceID: 4298}
+      Script: {instanceID: 4150}
     - Class: 114
-      Script: {instanceID: 4330}
+      Script: {instanceID: 4308}
     - Class: 114
-      Script: {instanceID: 4358}
+      Script: {instanceID: 4340}
     - Class: 114
-      Script: {instanceID: 4360}
+      Script: {instanceID: 4368}
     - Class: 114
-      Script: {instanceID: 4516}
+      Script: {instanceID: 4370}
     - Class: 114
-      Script: {instanceID: 4594}
+      Script: {instanceID: 4526}
     - Class: 114
-      Script: {instanceID: 4828}
+      Script: {instanceID: 4604}
     - Class: 114
-      Script: {instanceID: 5078}
+      Script: {instanceID: 4838}
     - Class: 114
-      Script: {instanceID: 5144}
+      Script: {instanceID: 5088}
     - Class: 114
-      Script: {instanceID: 5180}
+      Script: {instanceID: 5154}
     - Class: 114
-      Script: {instanceID: 5188}
+      Script: {instanceID: 5190}
     - Class: 114
-      Script: {instanceID: 5334}
+      Script: {instanceID: 5198}
     - Class: 114
-      Script: {instanceID: 5468}
+      Script: {instanceID: 5344}
     - Class: 114
-      Script: {instanceID: 5736}
+      Script: {instanceID: 5478}
+    - Class: 114
+      Script: {instanceID: 5746}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -1720,4 +1722,4 @@ ScriptsOnlyBuild:
   platform: 19
   scenePathNames:
   - Assets/Engine/Scenes/Mansion.unity
-  playerPath: F:/Mansion-build/Mansion.exe
+  playerPath: C:/Development/Mansion-Build/Mansion.exe
