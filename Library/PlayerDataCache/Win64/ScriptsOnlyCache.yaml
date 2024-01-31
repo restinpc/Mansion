@@ -1647,7 +1647,7 @@ ScriptsOnlyBuild:
     className: TeleportArea
   - hash:
       serializedVersion: 2
-      Hash: 14255714b6d806c0af20fb84c241fa47
+      Hash: e8b85b5435d05ae61f0d5e4db7571f57
     assemblyName: Metaverse.dll
     namespaceName: Engine
     className: Game
@@ -1720,4 +1720,4 @@ ScriptsOnlyBuild:
   platform: 19
   scenePathNames:
   - Assets/Engine/Scenes/Mansion.unity
-  playerPath: F:/Mansion-build/Mansion.exe
+  playerPath: C:/Development/Mansion/Build/Mansion.exe

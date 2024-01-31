@@ -161,6 +161,7 @@ Transform:
   - {fileID: 1031979613}
   - {fileID: 1491471914}
   - {fileID: 977987365}
+  - {fileID: 358721728}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -192,6 +193,13 @@ MonoBehaviour:
   audioSource: {fileID: 621815599}
   audioClipArray:
   - {fileID: 8300000, guid: e66f40facb753c14d8ffea881545b099, type: 3}
+  endPosition: []
+  endRotation: []
+  endMoveSpeed: []
+  endRotationSpeed: []
+  step: 0
+  cinematic: 0
+  obj: {fileID: 0}
 --- !u!1001 &2601511
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2473,6 +2481,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 358313847}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &358721728 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: ece723551320d9c41a3d037055057985,
+    type: 3}
+  m_PrefabInstance: {fileID: 1371138104}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &372856447
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3384,8 +3398,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 461070584}
   m_LocalRotation: {x: 0.5, y: 0.5, z: -0.5, w: 0.5}
-  m_LocalPosition: {x: 27.91, y: 11.42, z: -19.54}
-  m_LocalScale: {x: 0.55446994, y: 0.29347667, z: 0.29347667}
+  m_LocalPosition: {x: 28.41, y: 11.25, z: -19.72}
+  m_LocalScale: {x: 0.5550677, y: 0.29379317, z: 0.29379317}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1031979613}
@@ -3399,7 +3413,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 461070584}
   m_Enabled: 0
-  m_VideoClip: {fileID: 32900000, guid: d993d3b3c60186642b1de49659dd8467, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: df9a3fcf0b8a1b847a3f62c39af060b1, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
@@ -3412,12 +3426,14 @@ VideoPlayer:
   m_DataSource: 0
   m_PlaybackSpeed: 1
   m_AudioOutputMode: 2
-  m_TargetAudioSources: []
-  m_DirectAudioVolumes: []
+  m_TargetAudioSources:
+  - {fileID: 0}
+  m_DirectAudioVolumes:
+  - 1
   m_Url: 
-  m_EnabledAudioTracks: 
-  m_DirectAudioMutes: 
-  m_ControlledAudioTrackCount: 0
+  m_EnabledAudioTracks: 01
+  m_DirectAudioMutes: 00
+  m_ControlledAudioTrackCount: 1
   m_PlayOnAwake: 1
   m_SkipOnDrop: 1
   m_Looping: 1
@@ -8161,12 +8177,12 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1464737}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: ece723551320d9c41a3d037055057985,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ece723551320d9c41a3d037055057985,
         type: 3}
@@ -8186,17 +8202,17 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: ece723551320d9c41a3d037055057985,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.96
+      value: -0.8669629
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ece723551320d9c41a3d037055057985,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.04
+      value: 1.9951673
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ece723551320d9c41a3d037055057985,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -9
+      value: -18.69571
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ece723551320d9c41a3d037055057985,
         type: 3}
@@ -8206,17 +8222,17 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: ece723551320d9c41a3d037055057985,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ece723551320d9c41a3d037055057985,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ece723551320d9c41a3d037055057985,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ece723551320d9c41a3d037055057985,
         type: 3}
@@ -8233,10 +8249,35 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8006838189454963580, guid: ece723551320d9c41a3d037055057985,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8006838189454963580, guid: ece723551320d9c41a3d037055057985,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8006838189454963580, guid: ece723551320d9c41a3d037055057985,
+        type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8006838189454963580, guid: ece723551320d9c41a3d037055057985,
+        type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8006838189454963580, guid: ece723551320d9c41a3d037055057985,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d76218d678798714982917bfa45b9f01, type: 2}
     - target: {fileID: 919132149155446097, guid: ece723551320d9c41a3d037055057985,
         type: 3}
       propertyPath: m_Name
-      value: Scene2 (70) 1
+      value: Mansion
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ece723551320d9c41a3d037055057985, type: 3}
@@ -11533,7 +11574,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 30dad075585680e4fa1df041d19b28db,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -9.72903
+      value: -7.7
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 30dad075585680e4fa1df041d19b28db,
         type: 3}
@@ -11543,7 +11584,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 30dad075585680e4fa1df041d19b28db,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -15.607935
+      value: -13.8
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 30dad075585680e4fa1df041d19b28db,
         type: 3}
@@ -13103,8 +13144,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1940282755}
   m_LocalRotation: {x: -0.5, y: 0.5, z: -0.5, w: -0.5}
-  m_LocalPosition: {x: 15.799999, y: 11.460001, z: -19.46}
-  m_LocalScale: {x: 0.5192238, y: 0.27482116, z: 0.27482116}
+  m_LocalPosition: {x: 16.05, y: 11.48, z: -18.61}
+  m_LocalScale: {x: 0.46822247, y: 0.24782655, z: 0.24782655}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1031979613}
@@ -13118,7 +13159,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1940282755}
   m_Enabled: 0
-  m_VideoClip: {fileID: 32900000, guid: d993d3b3c60186642b1de49659dd8467, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: df9a3fcf0b8a1b847a3f62c39af060b1, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
@@ -13131,12 +13172,14 @@ VideoPlayer:
   m_DataSource: 0
   m_PlaybackSpeed: 1
   m_AudioOutputMode: 2
-  m_TargetAudioSources: []
-  m_DirectAudioVolumes: []
+  m_TargetAudioSources:
+  - {fileID: 0}
+  m_DirectAudioVolumes:
+  - 1
   m_Url: 
-  m_EnabledAudioTracks: 
-  m_DirectAudioMutes: 
-  m_ControlledAudioTrackCount: 0
+  m_EnabledAudioTracks: 01
+  m_DirectAudioMutes: 00
+  m_ControlledAudioTrackCount: 1
   m_PlayOnAwake: 1
   m_SkipOnDrop: 1
   m_Looping: 1
