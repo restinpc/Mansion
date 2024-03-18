@@ -1,458 +1,458 @@
 { "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
 { "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
 { "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
-{ "pid": 0, "tid": 1, "ts": 1710161627064733, "dur": 706888, "ph": "X", "name": "Build Player", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1710161627064944, "dur": 12301, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1710161627077247, "dur": 688519, "ph": "X", "name": "Run Backend", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1710161627765768, "dur": 5853, "ph": "X", "name": "Finish", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1710161627772192, "dur": 24, "ph": "X", "name": "", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1710771144930966, "dur": 1043415, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1710771144931178, "dur": 16008, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1710771144947188, "dur": 1023603, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1710771145970792, "dur": 3584, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1710771145975040, "dur": 14, "ph": "X", "name": "", "args": {} },
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1710161627105357, "dur":703, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1710161627106068, "dur":125, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
-,{ "pid":12345, "tid":0, "ts":1710161627106224, "dur":16, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
-,{ "pid":12345, "tid":0, "ts":1710161627106240, "dur":448, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
-,{ "pid":12345, "tid":0, "ts":1710161627106725, "dur":815, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1710161627107540, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1710161627735023, "dur":218, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1710161627735241, "dur":293, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1710161627735534, "dur":105, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1710161627735639, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1710161627735646, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1710161627735648, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1710161627735653, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1710161627735654, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1710161627735657, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1710161627735658, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1710161627735662, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1710161627735663, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1710161627735666, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1710161627735667, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1710161627735671, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1710161627735672, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1710161627735675, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1710161627735676, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1710161627735680, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1710161627735681, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1710161627735684, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1710161627735685, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1710161627735689, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1710161627735690, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1710161627735693, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1710161627735694, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1710161627735698, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1710161627735699, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1710161627735703, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1710161627735704, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1710161627735708, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1710161627735709, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1710161627735712, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1710161627735723, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1710161627735740, "dur":822, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1710161627107002, "dur":661, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1710161627107663, "dur":3061, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1710161627110729, "dur":159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":1, "ts":1710161627110888, "dur":166, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1710161627111055, "dur":435, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion.exe" }}
-,{ "pid":12345, "tid":1, "ts":1710161627111490, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1710161627111530, "dur":28557, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1710161627140088, "dur":163, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1710161627140254, "dur":27024, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1710161627167278, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1710161627167337, "dur":47082, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1710161627214420, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1710161627214478, "dur":43860, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1710161627258338, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1710161627258396, "dur":24987, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1710161627283384, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1710161627283436, "dur":24830, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1710161627308267, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1710161627308299, "dur":273147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":1, "ts":1710161627581446, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1710161627581493, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/level0" }}
-,{ "pid":12345, "tid":1, "ts":1710161627581526, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1710161627581530, "dur":4497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Mansion-build/Mansion_Data/level0" }}
-,{ "pid":12345, "tid":1, "ts":1710161627586045, "dur":148975, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1710161627107055, "dur":612, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1710161627107667, "dur":3067, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1710161627110735, "dur":242, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":2, "ts":1710161627110977, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1710161627111001, "dur":3612, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":2, "ts":1710161627114614, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1710161627114639, "dur":48625, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1710161627163264, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1710161627163303, "dur":163585, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":2, "ts":1710161627326889, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1710161627326929, "dur":30518, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
-,{ "pid":12345, "tid":2, "ts":1710161627357448, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1710161627357486, "dur":285168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":2, "ts":1710161627642655, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1710161627642696, "dur":92542, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1710161627106975, "dur":605, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1710161627107605, "dur":3114, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1710161627110730, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
-,{ "pid":12345, "tid":3, "ts":1710161627110733, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1710161627110828, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/app.info" }}
-,{ "pid":12345, "tid":3, "ts":1710161627110829, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1710161627110851, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":3, "ts":1710161627110955, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1710161627110994, "dur":47891, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":3, "ts":1710161627158886, "dur":159, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1710161627159048, "dur":39058, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1710161627198107, "dur":143, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1710161627198251, "dur":27990, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1710161627226242, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1710161627226304, "dur":57408, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1710161627283712, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1710161627283745, "dur":51383, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1710161627335128, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1710161627335191, "dur":58905, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/Unity.Services.Core.Internal.dll" }}
-,{ "pid":12345, "tid":3, "ts":1710161627394097, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1710161627394157, "dur":37452, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":3, "ts":1710161627431609, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1710161627431664, "dur":131031, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":3, "ts":1710161627562696, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1710161627562762, "dur":7004, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/StreamingAssets/SteamVR/binding_index_hmd.json" }}
-,{ "pid":12345, "tid":3, "ts":1710161627569767, "dur":216, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1710161627569986, "dur":10522, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/StreamingAssets/SteamVR/bindings_knuckles.json" }}
-,{ "pid":12345, "tid":3, "ts":1710161627580509, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1710161627580581, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/level0.resS" }}
-,{ "pid":12345, "tid":3, "ts":1710161627580612, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1710161627580618, "dur":977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Mansion-build/Mansion_Data/level0.resS" }}
-,{ "pid":12345, "tid":3, "ts":1710161627581608, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":3, "ts":1710161627581653, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1710161627581658, "dur":7066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Mansion-build/Mansion_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":3, "ts":1710161627588745, "dur":146482, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1710161627107145, "dur":546, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1710161627107692, "dur":3039, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1710161627110733, "dur":12642, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":4, "ts":1710161627123375, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1710161627123422, "dur":27779, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1710161627151202, "dur":221, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1710161627151424, "dur":24342, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1710161627175766, "dur":186, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1710161627175953, "dur":21656, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1710161627197609, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1710161627197673, "dur":25073, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1710161627222747, "dur":212, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1710161627222962, "dur":26989, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1710161627249951, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1710161627250003, "dur":27173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1710161627277176, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1710161627277224, "dur":126311, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1710161627403535, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1710161627403574, "dur":211755, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":4, "ts":1710161627615330, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1710161627615382, "dur":119684, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1710161627107802, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1710161627107803, "dur":2928, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1710161627110731, "dur":195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":5, "ts":1710161627110926, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1710161627110966, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":5, "ts":1710161627111067, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1710161627111090, "dur":50090, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll" }}
-,{ "pid":12345, "tid":5, "ts":1710161627161181, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1710161627161232, "dur":49683, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1710161627210918, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1710161627210979, "dur":32158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.SpatialTracking.dll" }}
-,{ "pid":12345, "tid":5, "ts":1710161627243138, "dur":191, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1710161627243331, "dur":27300, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1710161627270632, "dur":186, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1710161627270821, "dur":34541, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":5, "ts":1710161627305362, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1710161627305409, "dur":97489, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/Unity.XR.OpenVR.dll" }}
-,{ "pid":12345, "tid":5, "ts":1710161627402898, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1710161627402979, "dur":235220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":5, "ts":1710161627638199, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1710161627638236, "dur":96826, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1710161627107296, "dur":418, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1710161627107714, "dur":3009, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1710161627110729, "dur":12456, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":6, "ts":1710161627123185, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1710161627123210, "dur":40481, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1710161627163692, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1710161627163730, "dur":23616, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1710161627187346, "dur":156, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1710161627187505, "dur":52138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1710161627239644, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1710161627239708, "dur":27270, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1710161627266979, "dur":194, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1710161627267176, "dur":67957, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1710161627335133, "dur":149, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1710161627335283, "dur":22076, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
-,{ "pid":12345, "tid":6, "ts":1710161627357359, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1710161627357416, "dur":110534, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":6, "ts":1710161627467950, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1710161627468002, "dur":44413, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":6, "ts":1710161627512416, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1710161627512469, "dur":45892, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":6, "ts":1710161627558361, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1710161627558401, "dur":6486, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/StreamingAssets/SteamVR/binding_rift.json" }}
-,{ "pid":12345, "tid":6, "ts":1710161627564888, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1710161627564926, "dur":6739, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/StreamingAssets/SteamVR/bindings_oculus_touch.json" }}
-,{ "pid":12345, "tid":6, "ts":1710161627571665, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1710161627571697, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":6, "ts":1710161627571755, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1710161627571970, "dur":4014, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Mansion-build/Mansion_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":6, "ts":1710161627576010, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":6, "ts":1710161627576127, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1710161627576176, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":6, "ts":1710161627576194, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1710161627576207, "dur":4287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Mansion-build/Mansion_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":6, "ts":1710161627580517, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/resources.assets" }}
-,{ "pid":12345, "tid":6, "ts":1710161627580539, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1710161627580548, "dur":1322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Mansion-build/Mansion_Data/resources.assets" }}
-,{ "pid":12345, "tid":6, "ts":1710161627581885, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":6, "ts":1710161627581901, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1710161627581904, "dur":1306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Mansion-build/Mansion_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":6, "ts":1710161627583226, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/boot.config" }}
-,{ "pid":12345, "tid":6, "ts":1710161627583322, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1710161627583350, "dur":151673, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1710161627107231, "dur":464, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1710161627107695, "dur":3025, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1710161627110730, "dur":39337, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":7, "ts":1710161627150068, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1710161627150136, "dur":25630, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1710161627175767, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1710161627175820, "dur":47172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1710161627222992, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1710161627223023, "dur":44203, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1710161627267227, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1710161627267260, "dur":31720, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1710161627298981, "dur":199, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1710161627299182, "dur":155691, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1710161627454873, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1710161627454936, "dur":157151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":7, "ts":1710161627612087, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1710161627612147, "dur":123043, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1710161627107634, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1710161627107634, "dur":3091, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1710161627110729, "dur":12966, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":8, "ts":1710161627123695, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1710161627123721, "dur":30483, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1710161627154205, "dur":177, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1710161627154385, "dur":24647, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1710161627179033, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1710161627179084, "dur":61169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1710161627240253, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1710161627240288, "dur":31045, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1710161627271334, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1710161627271392, "dur":32669, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1710161627304062, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1710161627304108, "dur":31699, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1710161627335807, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1710161627335842, "dur":717, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/Unity.Services.Core.Environments.dll" }}
-,{ "pid":12345, "tid":8, "ts":1710161627336559, "dur":145, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1710161627336705, "dur":26257, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/Unity.Services.Core.Device.dll" }}
-,{ "pid":12345, "tid":8, "ts":1710161627362963, "dur":206, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1710161627363171, "dur":186992, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":8, "ts":1710161627550164, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1710161627550229, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
-,{ "pid":12345, "tid":8, "ts":1710161627550353, "dur":146, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1710161627550500, "dur":7000, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/StreamingAssets/SteamVR/binding_vive_tracker_camera.json" }}
-,{ "pid":12345, "tid":8, "ts":1710161627557501, "dur":387, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1710161627557891, "dur":7025, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/StreamingAssets/SteamVR/binding_vive.json" }}
-,{ "pid":12345, "tid":8, "ts":1710161627564916, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1710161627564948, "dur":6656, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/StreamingAssets/SteamVR/bindings_logitech_stylus.json" }}
-,{ "pid":12345, "tid":8, "ts":1710161627571604, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1710161627571638, "dur":232, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/StreamingAssets/SteamVR/actions.json" }}
-,{ "pid":12345, "tid":8, "ts":1710161627571870, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1710161627571895, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":8, "ts":1710161627571911, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1710161627572368, "dur":3692, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Mansion-build/Mansion_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":8, "ts":1710161627576072, "dur":12642, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":8, "ts":1710161627588716, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1710161627588782, "dur":146239, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1710161627107819, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1710161627107819, "dur":2919, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1710161627110738, "dur":216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":9, "ts":1710161627110955, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1710161627110981, "dur":11315, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":9, "ts":1710161627122297, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1710161627122361, "dur":51000, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1710161627173365, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1710161627173418, "dur":107557, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1710161627280976, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1710161627281012, "dur":26681, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1710161627307694, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1710161627307724, "dur":88241, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":9, "ts":1710161627395966, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1710161627396008, "dur":227097, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":9, "ts":1710161627623106, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1710161627623165, "dur":111872, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1710161627107462, "dur":255, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1710161627107717, "dur":3005, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1710161627110730, "dur":172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":10, "ts":1710161627110903, "dur":160, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1710161627111064, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":10, "ts":1710161627111153, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1710161627111195, "dur":26821, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1710161627138017, "dur":206, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1710161627138226, "dur":26843, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1710161627165069, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1710161627165116, "dur":42462, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1710161627207578, "dur":209, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1710161627207789, "dur":31856, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1710161627239646, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1710161627239707, "dur":41203, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1710161627280911, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1710161627280970, "dur":26539, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1710161627307509, "dur":169, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1710161627307680, "dur":39359, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/Unity.XR.Management.dll" }}
-,{ "pid":12345, "tid":10, "ts":1710161627347039, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1710161627347100, "dur":24424, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/Unity.Services.Core.Analytics.dll" }}
-,{ "pid":12345, "tid":10, "ts":1710161627371525, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1710161627371580, "dur":89075, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":10, "ts":1710161627460656, "dur":204, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1710161627460863, "dur":41945, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/SteamVR_Actions.dll" }}
-,{ "pid":12345, "tid":10, "ts":1710161627502808, "dur":183, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1710161627502993, "dur":141496, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/Metaverse.dll" }}
-,{ "pid":12345, "tid":10, "ts":1710161627644489, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1710161627644519, "dur":90500, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1710161627107731, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1710161627107731, "dur":3004, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1710161627110735, "dur":12413, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":11, "ts":1710161627123148, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1710161627123182, "dur":27884, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1710161627151066, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1710161627151104, "dur":66818, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1710161627217923, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1710161627218010, "dur":28127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1710161627246138, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1710161627246196, "dur":111594, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1710161627357790, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1710161627357817, "dur":66655, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":11, "ts":1710161627424473, "dur":249, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1710161627424724, "dur":139637, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":11, "ts":1710161627564362, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1710161627564413, "dur":7369, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/StreamingAssets/SteamVR/bindings_vive_cosmos_controller.json" }}
-,{ "pid":12345, "tid":11, "ts":1710161627571783, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1710161627571814, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":11, "ts":1710161627571834, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1710161627572200, "dur":37814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Mansion-build/Mansion_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":11, "ts":1710161627610029, "dur":125042, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1710161627107838, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1710161627107839, "dur":2888, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1710161627110729, "dur":213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":12, "ts":1710161627110943, "dur":125, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1710161627111069, "dur":118249, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/Valve.Newtonsoft.Json.dll" }}
-,{ "pid":12345, "tid":12, "ts":1710161627229318, "dur":161, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1710161627229481, "dur":56287, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1710161627285769, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1710161627285804, "dur":46661, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1710161627332465, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1710161627332513, "dur":25522, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/Unity.Services.Core.Networking.dll" }}
-,{ "pid":12345, "tid":12, "ts":1710161627358035, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1710161627358087, "dur":111770, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":12, "ts":1710161627469857, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1710161627469899, "dur":265015, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":12, "ts":1710161627734914, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1710161627734980, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
-,{ "pid":12345, "tid":12, "ts":1710161627734981, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1710161627107878, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1710161627107878, "dur":2851, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1710161627110730, "dur":12683, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":13, "ts":1710161627123413, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1710161627123440, "dur":120139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1710161627243580, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1710161627243615, "dur":42090, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1710161627285706, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1710161627285752, "dur":22469, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1710161627308221, "dur":254, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1710161627308476, "dur":22758, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/Unity.Subsystem.Registration.dll" }}
-,{ "pid":12345, "tid":13, "ts":1710161627331234, "dur":225, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1710161627331462, "dur":45529, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/Unity.Services.Core.Registration.dll" }}
-,{ "pid":12345, "tid":13, "ts":1710161627376991, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1710161627377063, "dur":90029, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":13, "ts":1710161627467092, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1710161627467129, "dur":135567, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/Newtonsoft.Json.dll" }}
-,{ "pid":12345, "tid":13, "ts":1710161627602697, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1710161627602798, "dur":132425, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1710161627107856, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1710161627107856, "dur":2877, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1710161627110735, "dur":174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":14, "ts":1710161627110910, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1710161627110958, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":14, "ts":1710161627111056, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1710161627111080, "dur":77050, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1710161627188130, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1710161627188165, "dur":34657, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1710161627222823, "dur":167, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1710161627222991, "dur":27239, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1710161627250230, "dur":171, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1710161627250402, "dur":24953, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1710161627275355, "dur":296, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1710161627275654, "dur":26710, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1710161627302364, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1710161627302422, "dur":44614, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1710161627347036, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1710161627347099, "dur":31340, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/Unity.Services.Core.Configuration.dll" }}
-,{ "pid":12345, "tid":14, "ts":1710161627378439, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1710161627378485, "dur":37902, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":14, "ts":1710161627416387, "dur":185, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1710161627416574, "dur":49958, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":14, "ts":1710161627466533, "dur":190, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1710161627466726, "dur":97635, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/SteamVR.dll" }}
-,{ "pid":12345, "tid":14, "ts":1710161627564361, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1710161627564412, "dur":6462, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/StreamingAssets/SteamVR/binding_holographic_hmd.json" }}
-,{ "pid":12345, "tid":14, "ts":1710161627570874, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1710161627570908, "dur":12922, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/StreamingAssets/SteamVR/bindings_holographic_controller.json" }}
-,{ "pid":12345, "tid":14, "ts":1710161627583831, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1710161627583895, "dur":151170, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1710161627107961, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1710161627107961, "dur":2767, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1710161627110732, "dur":194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":15, "ts":1710161627110927, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1710161627110970, "dur":2585, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":15, "ts":1710161627113556, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1710161627113601, "dur":48803, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1710161627162405, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1710161627162455, "dur":147811, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1710161627310267, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1710161627310325, "dur":25641, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/Unity.Services.Core.Threading.dll" }}
-,{ "pid":12345, "tid":15, "ts":1710161627335967, "dur":156, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1710161627336124, "dur":32313, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/Unity.Services.Core.dll" }}
-,{ "pid":12345, "tid":15, "ts":1710161627368438, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1710161627368499, "dur":166087, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":15, "ts":1710161627534586, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1710161627534652, "dur":4305, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Plugins/x86_64/openvr_api.dll" }}
-,{ "pid":12345, "tid":15, "ts":1710161627538957, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1710161627539022, "dur":3389, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Plugins/x86_64/ucrtbased.dll" }}
-,{ "pid":12345, "tid":15, "ts":1710161627542412, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1710161627542470, "dur":1123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Plugins/x86_64/XRSDKOpenVR.dll" }}
-,{ "pid":12345, "tid":15, "ts":1710161627543594, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1710161627543631, "dur":6961, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/UnitySubsystems/XRSDKOpenVR/UnitySubsystemsManifest.json" }}
-,{ "pid":12345, "tid":15, "ts":1710161627550592, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1710161627550628, "dur":6862, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/StreamingAssets/SteamVR/binding_vive_pro.json" }}
-,{ "pid":12345, "tid":15, "ts":1710161627557491, "dur":239, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1710161627557733, "dur":7133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/StreamingAssets/SteamVR/binding_vive_cosmos.json" }}
-,{ "pid":12345, "tid":15, "ts":1710161627564867, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1710161627564897, "dur":6789, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/StreamingAssets/SteamVR/bindings_vive_controller.json" }}
-,{ "pid":12345, "tid":15, "ts":1710161627571686, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1710161627571716, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/sharedassets0.resource" }}
-,{ "pid":12345, "tid":15, "ts":1710161627571758, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1710161627572075, "dur":52702, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Mansion-build/Mansion_Data/sharedassets0.resource" }}
-,{ "pid":12345, "tid":15, "ts":1710161627624790, "dur":110236, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1710161627108036, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1710161627108036, "dur":2703, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1710161627110739, "dur":12747, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":16, "ts":1710161627123487, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1710161627123514, "dur":28194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1710161627151708, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1710161627151770, "dur":77318, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.UNETModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1710161627229089, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1710161627229149, "dur":27060, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1710161627256210, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1710161627256274, "dur":28192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1710161627284466, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1710161627284499, "dur":41941, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1710161627326441, "dur":355, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1710161627326799, "dur":57886, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
-,{ "pid":12345, "tid":16, "ts":1710161627384686, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1710161627384744, "dur":113034, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":16, "ts":1710161627497778, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1710161627497838, "dur":200255, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":16, "ts":1710161627698094, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1710161627698132, "dur":37101, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1710161627737362, "dur":1100, "ph":"X", "name": "ProfilerWriteOutput" }
-,{ "pid": 0, "tid": 1, "ts": 1710161627772419, "dur": 1154, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1710161627772167, "dur": 1457, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+,{ "pid":12345, "tid":0, "ts":1710771144976122, "dur":578, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710771144976709, "dur":109, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1710771144976850, "dur":18, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1710771144976868, "dur":500, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1710771144977443, "dur":500, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710771144977943, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710771145936369, "dur":151, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710771145936520, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710771145936526, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710771145936530, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710771145936534, "dur":107, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710771145936641, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710771145936656, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710771145936659, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710771145936663, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710771145936664, "dur":19, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710771145936683, "dur":28, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710771145936711, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710771145936720, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710771145936722, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710771145936730, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710771145936731, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710771145936735, "dur":18, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710771145936753, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710771145936759, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710771145936762, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710771145936766, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710771145936768, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710771145936772, "dur":44, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710771145936816, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710771145936820, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710771145936822, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710771145936826, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710771145936828, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710771145936831, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710771145936833, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710771145936837, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710771145936838, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710771145936841, "dur":1, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710771145936856, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710771145936876, "dur":953, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1710771144977720, "dur":291, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1710771144978012, "dur":2740, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1710771144980758, "dur":11551, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1710771144992309, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1710771144992361, "dur":108065, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1710771145100426, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1710771145100465, "dur":25170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1710771145125636, "dur":206, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1710771145125843, "dur":64974, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1710771145190817, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1710771145190856, "dur":44136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1710771145234992, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1710771145235063, "dur":106138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1710771145341201, "dur":274, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1710771145341479, "dur":48543, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/SteamVR_Actions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1710771145390022, "dur":257, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1710771145390281, "dur":382154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1710771145772436, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1710771145772480, "dur":163930, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1710771144978326, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1710771144978327, "dur":2490, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1710771144980817, "dur":11749, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1710771144992566, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1710771144992596, "dur":26146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1710771145018743, "dur":202, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1710771145018947, "dur":24233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1710771145043180, "dur":196, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1710771145043379, "dur":22359, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1710771145065738, "dur":185, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1710771145065926, "dur":34535, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1710771145100462, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1710771145100494, "dur":27789, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1710771145128284, "dur":150, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1710771145128438, "dur":30583, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1710771145159022, "dur":204, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1710771145159228, "dur":159226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1710771145318454, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1710771145318499, "dur":203120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1710771145521619, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1710771145521693, "dur":24366, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/StreamingAssets/SteamVR/binding_vive.json" }}
+,{ "pid":12345, "tid":2, "ts":1710771145546062, "dur":452, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1710771145546522, "dur":28454, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/StreamingAssets/SteamVR/binding_holographic_hmd.json" }}
+,{ "pid":12345, "tid":2, "ts":1710771145574977, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1710771145575059, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1710771145575098, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1710771145575108, "dur":78447, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Mansion-build/Mansion_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1710771145653816, "dur":282554, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1710771144977848, "dur":201, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1710771144978049, "dur":2728, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1710771144980778, "dur":10852, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1710771144991631, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1710771144991685, "dur":44576, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1710771145036262, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1710771145036313, "dur":47383, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1710771145083697, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1710771145083764, "dur":30023, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":3, "ts":1710771145113788, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1710771145113851, "dur":26679, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1710771145140530, "dur":107, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1710771145140641, "dur":127561, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1710771145268203, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1710771145268256, "dur":334179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1710771145602440, "dur":1401, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1710771145603994, "dur":310, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1710771145604305, "dur":11713, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1710771145616043, "dur":320371, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1710771144978195, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1710771144978195, "dur":2624, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1710771144980820, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1710771144980953, "dur":589, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1710771144981543, "dur":20088, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1710771145001631, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1710771145001686, "dur":30691, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1710771145032377, "dur":214, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1710771145032593, "dur":151240, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1710771145183834, "dur":143, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1710771145183979, "dur":75247, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":4, "ts":1710771145259226, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1710771145259285, "dur":185279, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1710771145444567, "dur":169, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1710771145444744, "dur":113706, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1710771145558451, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1710771145558517, "dur":20348, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/StreamingAssets/SteamVR/bindings_knuckles.json" }}
+,{ "pid":12345, "tid":4, "ts":1710771145578867, "dur":229, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1710771145579108, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1710771145579180, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1710771145579205, "dur":5123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Mansion-build/Mansion_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1710771145584376, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1710771145584421, "dur":81, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1710771145584519, "dur":3953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Mansion-build/Mansion_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1710771145588513, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1710771145588563, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1710771145588581, "dur":2489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Mansion-build/Mansion_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1710771145591245, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1710771145591365, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1710771145591384, "dur":25569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Mansion-build/Mansion_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1710771145617003, "dur":319365, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1710771144978088, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1710771144978088, "dur":2729, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1710771144980818, "dur":196, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1710771144981015, "dur":630, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1710771144981646, "dur":110804, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/Valve.Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":5, "ts":1710771145092450, "dur":173, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1710771145092625, "dur":39983, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1710771145132608, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1710771145132654, "dur":33276, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":5, "ts":1710771145165930, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1710771145165974, "dur":37683, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/Unity.XR.Management.dll" }}
+,{ "pid":12345, "tid":5, "ts":1710771145203657, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1710771145203710, "dur":28951, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":5, "ts":1710771145232662, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1710771145232724, "dur":386546, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":5, "ts":1710771145619272, "dur":258, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1710771145619541, "dur":316886, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1710771144977973, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1710771144977973, "dur":2776, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1710771144980758, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":6, "ts":1710771144980761, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1710771144980854, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/app.info" }}
+,{ "pid":12345, "tid":6, "ts":1710771144980856, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1710771144980884, "dur":336, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1710771144981221, "dur":335, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1710771144981557, "dur":37718, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":6, "ts":1710771145019276, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1710771145019308, "dur":24046, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1710771145043354, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1710771145043385, "dur":54301, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1710771145097687, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1710771145097748, "dur":55263, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1710771145153012, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1710771145153053, "dur":46539, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1710771145199592, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1710771145199641, "dur":23133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":6, "ts":1710771145222775, "dur":532, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1710771145223310, "dur":214261, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1710771145437573, "dur":163, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1710771145437740, "dur":286551, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/Metaverse.dll" }}
+,{ "pid":12345, "tid":6, "ts":1710771145724292, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1710771145724366, "dur":212042, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1710771144978421, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1710771144978421, "dur":2331, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1710771144980758, "dur":413, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1710771144981171, "dur":400, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1710771144981571, "dur":4636, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":7, "ts":1710771144986209, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1710771144986256, "dur":47958, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1710771145034215, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1710771145034246, "dur":45561, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1710771145079808, "dur":319, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1710771145080130, "dur":26174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1710771145106305, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1710771145106365, "dur":26175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1710771145132541, "dur":204, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1710771145132747, "dur":29280, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1710771145162028, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1710771145162082, "dur":42044, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1710771145204126, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1710771145204161, "dur":30882, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1710771145235044, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1710771145235084, "dur":137726, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":7, "ts":1710771145372811, "dur":125, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1710771145372940, "dur":563345, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":7, "ts":1710771145936286, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1710771145936344, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":7, "ts":1710771145936345, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1710771144978909, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1710771144978910, "dur":1906, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1710771144980817, "dur":174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1710771144980991, "dur":643, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1710771144981635, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":8, "ts":1710771144981716, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1710771144981783, "dur":28283, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1710771145010067, "dur":223, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1710771145010294, "dur":23804, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1710771145034098, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1710771145034147, "dur":31397, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1710771145065545, "dur":425, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1710771145065971, "dur":25785, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1710771145091757, "dur":209, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1710771145091968, "dur":23778, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1710771145115747, "dur":207, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1710771145115956, "dur":24427, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1710771145140384, "dur":337, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1710771145140722, "dur":24002, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1710771145164729, "dur":193, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1710771145164923, "dur":98015, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/Unity.XR.OpenVR.dll" }}
+,{ "pid":12345, "tid":8, "ts":1710771145262939, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1710771145262983, "dur":489024, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":8, "ts":1710771145752007, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1710771145752100, "dur":184316, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1710771144978533, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1710771144978533, "dur":2218, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1710771144980758, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1710771144980942, "dur":268, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1710771144981211, "dur":438, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":9, "ts":1710771144981649, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1710771144981673, "dur":75783, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1710771145057457, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1710771145057514, "dur":42686, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1710771145100200, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1710771145100254, "dur":38899, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1710771145139154, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1710771145139225, "dur":25647, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1710771145164872, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1710771145164915, "dur":30313, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1710771145195229, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1710771145195295, "dur":27558, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":9, "ts":1710771145222853, "dur":129, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1710771145222983, "dur":126195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":9, "ts":1710771145349179, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1710771145349244, "dur":208681, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/SteamVR.dll" }}
+,{ "pid":12345, "tid":9, "ts":1710771145557926, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1710771145557992, "dur":15803, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/StreamingAssets/SteamVR/bindings_oculus_touch.json" }}
+,{ "pid":12345, "tid":9, "ts":1710771145573797, "dur":244, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1710771145574046, "dur":166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/StreamingAssets/SteamVR/actions.json" }}
+,{ "pid":12345, "tid":9, "ts":1710771145574213, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1710771145574250, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":9, "ts":1710771145574274, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1710771145574726, "dur":122844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Mansion-build/Mansion_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":9, "ts":1710771145697586, "dur":238843, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1710771144978655, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1710771144978656, "dur":2162, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1710771144980818, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1710771144980949, "dur":724, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1710771144981674, "dur":48962, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":10, "ts":1710771145030637, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1710771145030691, "dur":39196, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1710771145069888, "dur":399, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1710771145070289, "dur":28075, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1710771145098364, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1710771145098399, "dur":53404, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1710771145151804, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1710771145151857, "dur":24216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1710771145176074, "dur":185, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1710771145176260, "dur":25400, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":10, "ts":1710771145201661, "dur":186, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1710771145201849, "dur":37574, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1710771145239424, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1710771145239506, "dur":66748, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":10, "ts":1710771145306255, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1710771145306320, "dur":251606, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1710771145557926, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1710771145557993, "dur":16086, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/StreamingAssets/SteamVR/bindings_logitech_stylus.json" }}
+,{ "pid":12345, "tid":10, "ts":1710771145574079, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1710771145574131, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":10, "ts":1710771145574264, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1710771145574606, "dur":6630, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Mansion-build/Mansion_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":10, "ts":1710771145581327, "dur":354, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":10, "ts":1710771145581684, "dur":208, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1710771145581898, "dur":30588, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":10, "ts":1710771145612491, "dur":3524, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1710771145616032, "dur":320385, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1710771144978792, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1710771144978792, "dur":1958, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1710771144980758, "dur":33273, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":11, "ts":1710771145014031, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1710771145014069, "dur":24174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1710771145038243, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1710771145038294, "dur":104440, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1710771145142735, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1710771145142792, "dur":24112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1710771145166905, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1710771145166948, "dur":93939, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":11, "ts":1710771145260887, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1710771145260929, "dur":442181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":11, "ts":1710771145703113, "dur":119, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1710771145703237, "dur":233175, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1710771144979028, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1710771144979029, "dur":1790, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1710771144980819, "dur":11252, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1710771144992072, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1710771144992119, "dur":26796, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1710771145018915, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1710771145018956, "dur":79133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1710771145098089, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1710771145098126, "dur":23963, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1710771145122090, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1710771145122152, "dur":27524, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1710771145149677, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1710771145149709, "dur":40194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1710771145189904, "dur":338, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1710771145190245, "dur":31269, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":12, "ts":1710771145221514, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1710771145221559, "dur":136150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":12, "ts":1710771145357709, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1710771145357772, "dur":89191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":12, "ts":1710771145446964, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1710771145447060, "dur":2216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Plugins/x86_64/openvr_api.dll" }}
+,{ "pid":12345, "tid":12, "ts":1710771145449281, "dur":156, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1710771145449447, "dur":18546, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Plugins/x86_64/ucrtbased.dll" }}
+,{ "pid":12345, "tid":12, "ts":1710771145467994, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1710771145468073, "dur":1084, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Plugins/x86_64/XRSDKOpenVR.dll" }}
+,{ "pid":12345, "tid":12, "ts":1710771145469158, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1710771145469238, "dur":19933, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/UnitySubsystems/XRSDKOpenVR/UnitySubsystemsManifest.json" }}
+,{ "pid":12345, "tid":12, "ts":1710771145489171, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1710771145489241, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":12, "ts":1710771145489351, "dur":268, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1710771145489620, "dur":12359, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/StreamingAssets/SteamVR/binding_vive_tracker_camera.json" }}
+,{ "pid":12345, "tid":12, "ts":1710771145501981, "dur":450, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1710771145502439, "dur":11554, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/StreamingAssets/SteamVR/binding_vive_pro.json" }}
+,{ "pid":12345, "tid":12, "ts":1710771145513996, "dur":412, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1710771145514412, "dur":9293, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/StreamingAssets/SteamVR/binding_vive_cosmos.json" }}
+,{ "pid":12345, "tid":12, "ts":1710771145523706, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1710771145523773, "dur":13777, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/StreamingAssets/SteamVR/binding_rift.json" }}
+,{ "pid":12345, "tid":12, "ts":1710771145537551, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1710771145537629, "dur":11874, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/StreamingAssets/SteamVR/binding_index_hmd.json" }}
+,{ "pid":12345, "tid":12, "ts":1710771145549506, "dur":398, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1710771145549910, "dur":16472, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/StreamingAssets/SteamVR/bindings_vive_cosmos_controller.json" }}
+,{ "pid":12345, "tid":12, "ts":1710771145566384, "dur":110, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1710771145566497, "dur":50839, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/StreamingAssets/SteamVR/bindings_holographic_controller.json" }}
+,{ "pid":12345, "tid":12, "ts":1710771145617338, "dur":127, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1710771145617470, "dur":318958, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1710771144979154, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1710771144979155, "dur":1659, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1710771144980814, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":13, "ts":1710771144980945, "dur":396, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1710771144981342, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":13, "ts":1710771144981460, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1710771144981506, "dur":2791, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":13, "ts":1710771144984297, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1710771144984348, "dur":46599, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1710771145030948, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1710771145030974, "dur":139331, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1710771145170306, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1710771145170371, "dur":485994, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":13, "ts":1710771145656367, "dur":142, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1710771145656515, "dur":279914, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1710771144979216, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1710771144979217, "dur":1598, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1710771144980815, "dur":10845, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":14, "ts":1710771144991660, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1710771144991691, "dur":25771, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1710771145017463, "dur":109, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1710771145017575, "dur":68953, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1710771145086528, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1710771145086559, "dur":23827, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1710771145110386, "dur":190, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1710771145110579, "dur":39027, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1710771145149607, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1710771145149673, "dur":26417, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1710771145176091, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1710771145176138, "dur":21891, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/Unity.Subsystem.Registration.dll" }}
+,{ "pid":12345, "tid":14, "ts":1710771145198029, "dur":206, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1710771145198238, "dur":61216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":14, "ts":1710771145259455, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1710771145259489, "dur":40826, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":14, "ts":1710771145300316, "dur":208, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1710771145300527, "dur":50309, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":14, "ts":1710771145350836, "dur":195, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1710771145351033, "dur":203829, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":14, "ts":1710771145554863, "dur":444, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1710771145555312, "dur":30698, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/StreamingAssets/SteamVR/bindings_vive_controller.json" }}
+,{ "pid":12345, "tid":14, "ts":1710771145586015, "dur":199, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1710771145586228, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/resources.assets" }}
+,{ "pid":12345, "tid":14, "ts":1710771145586314, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1710771145586335, "dur":2880, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Mansion-build/Mansion_Data/resources.assets" }}
+,{ "pid":12345, "tid":14, "ts":1710771145589248, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/level0" }}
+,{ "pid":12345, "tid":14, "ts":1710771145589275, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1710771145589283, "dur":9957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Mansion-build/Mansion_Data/level0" }}
+,{ "pid":12345, "tid":14, "ts":1710771145599271, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":14, "ts":1710771145599303, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1710771145599317, "dur":17668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/Mansion-build/Mansion_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":14, "ts":1710771145617011, "dur":319404, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1710771144979287, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1710771144979288, "dur":1544, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1710771144980832, "dur":10877, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":15, "ts":1710771144991710, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1710771144991738, "dur":39049, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1710771145030788, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1710771145030823, "dur":55778, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1710771145086601, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1710771145086629, "dur":23747, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1710771145110377, "dur":255, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1710771145110633, "dur":108239, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1710771145218873, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1710771145218937, "dur":2529, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":15, "ts":1710771145221467, "dur":319, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1710771145221788, "dur":412619, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":15, "ts":1710771145634408, "dur":109, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1710771145634521, "dur":301851, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1710771144979430, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1710771144979431, "dur":1347, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1710771144980778, "dur":491, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":16, "ts":1710771144981269, "dur":319, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1710771144981589, "dur":564, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion.exe" }}
+,{ "pid":12345, "tid":16, "ts":1710771144982154, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1710771144982166, "dur":30979, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1710771145013146, "dur":286, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1710771145013434, "dur":24877, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1710771145038311, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1710771145038346, "dur":48005, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1710771145086352, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1710771145086412, "dur":39357, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1710771145125770, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1710771145125817, "dur":23789, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1710771145149607, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1710771145149675, "dur":50046, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1710771145199722, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1710771145199751, "dur":22991, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":16, "ts":1710771145222743, "dur":154, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1710771145222899, "dur":72122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":16, "ts":1710771145295022, "dur":22837, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1710771145317862, "dur":288735, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/Mansion-build/Mansion_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":16, "ts":1710771145606599, "dur":96, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1710771145606699, "dur":329711, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710771145938534, "dur":1329, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1710771145975234, "dur": 583, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1710771145975020, "dur": 826, "ph": "X", "name": "Write chrome-trace events", "args": {} },
