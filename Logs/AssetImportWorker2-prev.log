@@ -1,0 +1,322 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.15f1 (e8e88683f834) revision 15263878'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ru' Physical Memory: 32486 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.15f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+F:/Mansion
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+64959
+Successfully changed project path to: F:/Mansion
+F:/Mansion
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [9860] Host "[IP] 192.168.0.11 [Port] 0 [Flags] 2 [Guid] 3471228211 [EditorId] 3471228211 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-FFPKB5C) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [9860] Host "[IP] 192.168.0.11 [Port] 0 [Flags] 2 [Guid] 3471228211 [EditorId] 3471228211 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-FFPKB5C) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 48.33 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.15f1 (e8e88683f834)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path F:/Mansion/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2080 Super with Max-Q Design (ID=0x1e93)
+    Vendor:   NVIDIA
+    VRAM:     8001 MB
+    Driver:   31.0.15.3878
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56036
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008943 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 41.74 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.675 seconds
+Domain Reload Profiling:
+	ReloadAssembly (676ms)
+		BeginReloadAssembly (84ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (448ms)
+			LoadAssemblies (82ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (147ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (205ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (42ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (114ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002120 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+Mono: successfully reloaded assembly
+- Completed reload, in  0.763 seconds
+Domain Reload Profiling:
+	ReloadAssembly (763ms)
+		BeginReloadAssembly (96ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (572ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (174ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (259ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (49ms)
+				ProcessInitializeOnLoadAttributes (174ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.52 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2067 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (337.3 KB). Loaded Objects now: 2569.
+Memory consumption went from 103.9 MB to 103.6 MB.
+Total: 3.356600 ms (FindLiveObjects: 0.235600 ms CreateObjectMapping: 0.134500 ms MarkObjects: 2.756400 ms  DeleteObjects: 0.229400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 233103.420017 seconds.
+  path: Assets/Engine/Models/Building/Materials/Materials
+  artifactKey: Guid(d12c841dbb48b0745a81523911addac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Engine/Models/Building/Materials/Materials using Guid(d12c841dbb48b0745a81523911addac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c091ee6883c87548bda396cfdad7025f') in 0.020713 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.063430 seconds.
+  path: Assets/Engine/Models/Building/Materials/Materials/map 1.mat
+  artifactKey: Guid(e5d2b161df04afa46ad32d1f7d56122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Engine/Models/Building/Materials/Materials/map 1.mat using Guid(e5d2b161df04afa46ad32d1f7d56122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a86bbd62aa8419c1ac868753cfe1f910') in 0.106058 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 195.072265 seconds.
+  path: Assets/Engine/Models/Mansion/Materials/beton 1.mat
+  artifactKey: Guid(da06010de61948a48806a32409592ace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Engine/Models/Mansion/Materials/beton 1.mat using Guid(da06010de61948a48806a32409592ace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afca23456776fa0de7b5fc31525c7822') in 0.076008 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Engine/Models/Mansion/Materials/lambert136 1.mat
+  artifactKey: Guid(d2b59e64646905c4a9dd5d377d6c669a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Engine/Models/Mansion/Materials/lambert136 1.mat using Guid(d2b59e64646905c4a9dd5d377d6c669a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b35bbed1edb9eb9304209cd0fa827da') in 0.026059 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Engine/Models/Mansion/Materials/drev.png
+  artifactKey: Guid(6bdbf530e0cf36b47933619a7c9daaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Engine/Models/Mansion/Materials/drev.png using Guid(6bdbf530e0cf36b47933619a7c9daaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '166c3af2c3127d16bf7a7cbaddb74812') in 0.032813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Engine/Models/Mansion/Materials/mebe.mat
+  artifactKey: Guid(d73b048f2bfd28c4b81f46004bd4352f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Engine/Models/Mansion/Materials/mebe.mat using Guid(d73b048f2bfd28c4b81f46004bd4352f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ce9e515cfb01cb8e2462d2b6d3843a8') in 0.039299 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Engine/Models/Mansion/Materials/drev 1.mat
+  artifactKey: Guid(5053c43f853661a4cbed95075c40dbf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Engine/Models/Mansion/Materials/drev 1.mat using Guid(5053c43f853661a4cbed95075c40dbf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f55ef8ae5d56cc35508cf1b2049824e') in 0.028931 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Engine/Models/Mansion/Materials/mans-trav1.mat
+  artifactKey: Guid(b104a51ef105d9d42971c2f3e62ea0fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Engine/Models/Mansion/Materials/mans-trav1.mat using Guid(b104a51ef105d9d42971c2f3e62ea0fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aefac72cec6014af185de4bdcad16107') in 0.027594 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Engine/Models/Mansion/Materials/trava.jpg
+  artifactKey: Guid(c3b456abc7e6f694692af694d23b265b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Engine/Models/Mansion/Materials/trava.jpg using Guid(c3b456abc7e6f694692af694d23b265b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4eda7ab5e17b20cd924a34fa58a1102') in 0.026154 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Engine/Models/Mansion/Materials/kafel 1.mat
+  artifactKey: Guid(939b9c38cb430fb40820859f34242614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Engine/Models/Mansion/Materials/kafel 1.mat using Guid(939b9c38cb430fb40820859f34242614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdaf713b3a75ce481d2a29dc2b33be72') in 0.031220 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Engine/Models/Mansion/Materials/mebe.png
+  artifactKey: Guid(b51e0591ce681af4bb153c91d74026d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Engine/Models/Mansion/Materials/mebe.png using Guid(b51e0591ce681af4bb153c91d74026d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cdae96a06a745a8ac77f42e04ac110a') in 0.031579 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Engine/Models/Mansion/Materials/mans-sofa10.mat
+  artifactKey: Guid(a6e110ec6677edb4bbcba3e026f42b0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Engine/Models/Mansion/Materials/mans-sofa10.mat using Guid(a6e110ec6677edb4bbcba3e026f42b0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f57888b3795ffabca29ca5a2f02dce6') in 0.029105 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Engine/Models/Mansion/Materials/New Material.mat
+  artifactKey: Guid(7e122d1c661e3ce4da29b7ed463a6947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Engine/Models/Mansion/Materials/New Material.mat using Guid(7e122d1c661e3ce4da29b7ed463a6947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2065c4639532bd96703fbb660ed28a68') in 0.027580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Engine/Models/Mansion/Materials/mans-column1.mat
+  artifactKey: Guid(76b02622e9df06b4a9f1da36c982520b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Engine/Models/Mansion/Materials/mans-column1.mat using Guid(76b02622e9df06b4a9f1da36c982520b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f9f52a968dfe7dfc8d14325c210ad76') in 0.028503 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Engine/Models/Mansion/Materials/column1.mat
+  artifactKey: Guid(24c5d08bdab122e4aa0b40072ac1185d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Engine/Models/Mansion/Materials/column1.mat using Guid(24c5d08bdab122e4aa0b40072ac1185d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d239175858a86c40448566302104c5f') in 0.030359 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Engine/Models/Mansion/Materials/mans-lambert135.mat
+  artifactKey: Guid(8d5627ed37b441b43bf4573469d44de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Engine/Models/Mansion/Materials/mans-lambert135.mat using Guid(8d5627ed37b441b43bf4573469d44de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cf610503086aaca10fa298064cea82a') in 0.029047 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Engine/Models/Mansion/Materials/column1 1.mat
+  artifactKey: Guid(c8f47f0a815d32e4aa74dff1318aefcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Engine/Models/Mansion/Materials/column1 1.mat using Guid(c8f47f0a815d32e4aa74dff1318aefcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf8c92417d6f11cf04721e32b66cbb02') in 0.028081 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Engine/Models/Mansion/Materials/column.png
+  artifactKey: Guid(14c7c7a5ceb9ae74d97244389131e60d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Engine/Models/Mansion/Materials/column.png using Guid(14c7c7a5ceb9ae74d97244389131e60d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d273263bb41b43723cb2360d5fb53df') in 0.016297 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Engine/Models/Mansion/Materials/red.mat
+  artifactKey: Guid(ce7c1b11bd815044581c89fa3d2f6e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Engine/Models/Mansion/Materials/red.mat using Guid(ce7c1b11bd815044581c89fa3d2f6e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01301819fea6b2660052a539d9fc9f9a') in 0.032080 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Engine/Models/Mansion/Materials/glass.mat
+  artifactKey: Guid(3dc5b1f17ad42fd4aabd200cd2f25fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Engine/Models/Mansion/Materials/glass.mat using Guid(3dc5b1f17ad42fd4aabd200cd2f25fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9e4bfe4914057e825fb1934489e63d8') in 0.017988 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Engine/Models/Mansion/Materials/mans-mebe.mat
+  artifactKey: Guid(e063eceddd6af884bbf3157bb3b57b27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Engine/Models/Mansion/Materials/mans-mebe.mat using Guid(e063eceddd6af884bbf3157bb3b57b27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd08e15c32e7c4ca2e741eca48212e0b4') in 0.030100 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Engine/Models/Mansion/Materials/lambert136.mat
+  artifactKey: Guid(f26d5925cf7a33643836effef465bb93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Engine/Models/Mansion/Materials/lambert136.mat using Guid(f26d5925cf7a33643836effef465bb93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '323073d8fb4f12f51c6dcb2fb453eac9') in 0.022250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Engine/Models/Mansion/Materials/mans-glass.mat
+  artifactKey: Guid(f95cb4ac35f90554381ad5205e5f6c0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Engine/Models/Mansion/Materials/mans-glass.mat using Guid(f95cb4ac35f90554381ad5205e5f6c0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '510ffd13e0d50b1625255e1430c8a526') in 0.020921 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/Engine/Models/Mansion/Materials/sofa10.mat
+  artifactKey: Guid(50921fad69b6d9f41b130ecd8cc21297) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Engine/Models/Mansion/Materials/sofa10.mat using Guid(50921fad69b6d9f41b130ecd8cc21297) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a5fddf2e8b2fe21ab63a84f44c66c1b') in 0.024852 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Engine/Models/Mansion/Materials/lambert135.mat
+  artifactKey: Guid(231d28427f52d6b4aa1ce64925a57beb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Engine/Models/Mansion/Materials/lambert135.mat using Guid(231d28427f52d6b4aa1ce64925a57beb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db30592f39f7ecb01837f34728983d46') in 0.030623 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Engine/Models/Mansion/Materials/red 1.mat
+  artifactKey: Guid(9037f495734b6a54f85beabeef9a43e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Engine/Models/Mansion/Materials/red 1.mat using Guid(9037f495734b6a54f85beabeef9a43e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c1549621263ed13dfcc84a5eb4d8b75') in 0.026177 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
