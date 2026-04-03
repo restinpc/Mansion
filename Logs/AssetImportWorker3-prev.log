@@ -1,0 +1,259 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.15f1 (e8e88683f834) revision 15263878'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ru' Physical Memory: 32486 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.15f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+F:/Mansion
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+50398
+Successfully changed project path to: F:/Mansion
+F:/Mansion
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [9128] Host "[IP] 192.168.0.44 [Port] 0 [Flags] 2 [Guid] 2086173432 [EditorId] 2086173432 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-FFPKB5C) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [9128] Host "[IP] 192.168.0.44 [Port] 0 [Flags] 2 [Guid] 2086173432 [EditorId] 2086173432 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-FFPKB5C) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 53.66 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.15f1 (e8e88683f834)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path F:/Mansion/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2080 Super with Max-Q Design (ID=0x1e93)
+    Vendor:   NVIDIA
+    VRAM:     8001 MB
+    Driver:   31.0.15.3878
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56016
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005536 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 40.11 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.592 seconds
+Domain Reload Profiling:
+	ReloadAssembly (593ms)
+		BeginReloadAssembly (95ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (394ms)
+			LoadAssemblies (92ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (103ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (213ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (40ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (118ms)
+				ProcessInitializeOnLoadMethodAttributes (45ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002426 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.73 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+Mono: successfully reloaded assembly
+- Completed reload, in  1.119 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1120ms)
+		BeginReloadAssembly (146ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (846ms)
+			LoadAssemblies (107ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (261ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (369ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (63ms)
+				ProcessInitializeOnLoadAttributes (259ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.63 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2067 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (337.5 KB). Loaded Objects now: 2569.
+Memory consumption went from 103.6 MB to 103.3 MB.
+Total: 3.043600 ms (FindLiveObjects: 0.176500 ms CreateObjectMapping: 0.135900 ms MarkObjects: 2.500800 ms  DeleteObjects: 0.229800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 6920.692858 seconds.
+  path: Assets/SteamVR/Resources/SteamVR_HoverHighlight.mat
+  artifactKey: Guid(3f7b904f6bd0b77429148042b0254530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/Resources/SteamVR_HoverHighlight.mat using Guid(3f7b904f6bd0b77429148042b0254530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62fa382a5ef63ee8c20701eaa8eea4ac') in 0.163199 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/SteamVR/InteractionSystem/Teleport/Materials/TeleportAreaVisibleBright.mat
+  artifactKey: Guid(f2d37238fea5a8c4a86c80912b379030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/InteractionSystem/Teleport/Materials/TeleportAreaVisibleBright.mat using Guid(f2d37238fea5a8c4a86c80912b379030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38006155aae71c2f402cba07828c80df') in 0.024992 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/SteamVR/InteractionSystem/Samples/Models/Materials/target.mat
+  artifactKey: Guid(4bb9548183013a045a3a576bd7740d4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/InteractionSystem/Samples/Models/Materials/target.mat using Guid(4bb9548183013a045a3a576bd7740d4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b09bde67d14c8def05b7de450a3b9c9') in 0.026110 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006689 seconds.
+  path: Assets/SteamVR/InteractionSystem/Longbow/Materials/TorchHead.mat
+  artifactKey: Guid(67c31797bbf07114eb2d50aa3ae184e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/InteractionSystem/Longbow/Materials/TorchHead.mat using Guid(67c31797bbf07114eb2d50aa3ae184e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6b45121a7551c9435db0f4c9048eb8f') in 0.025420 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/SteamVR/InteractionSystem/Hints/Materials/URPControllerTextHintAnchor.mat
+  artifactKey: Guid(5ee00630a4cba94459f162ea174a1d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/InteractionSystem/Hints/Materials/URPControllerTextHintAnchor.mat using Guid(5ee00630a4cba94459f162ea174a1d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba3062db9dfcddb1c0d25bbf3951fc96') in 0.024701 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/SteamVR/InteractionSystem/Samples/Models/Materials/unnamed.mat
+  artifactKey: Guid(21caec5e9129c334db1cc10e5cb06a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/InteractionSystem/Samples/Models/Materials/unnamed.mat using Guid(21caec5e9129c334db1cc10e5cb06a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '581693492a0ea6049efff63e4e703c7a') in 0.024715 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/SteamVR/InteractionSystem/Hints/Materials/URPControllerButtonHints.mat
+  artifactKey: Guid(70a2eb634d7ed434b86d36f190fcf3a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/InteractionSystem/Hints/Materials/URPControllerButtonHints.mat using Guid(70a2eb634d7ed434b86d36f190fcf3a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adb652807d1b5f27a51e49d48532c7c7') in 0.014042 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/SteamVR/InteractionSystem/Teleport/Materials URP/URPTeleportAreaLocked.mat
+  artifactKey: Guid(0fe9e4228ebb3bc469ead815cd305d91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/InteractionSystem/Teleport/Materials URP/URPTeleportAreaLocked.mat using Guid(0fe9e4228ebb3bc469ead815cd305d91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7acb0ec3ef2c6fdd1e4464320226dcd') in 0.026712 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/SteamVR/InteractionSystem/Teleport/Materials URP/URPTeleportAreaVisibleBright.mat
+  artifactKey: Guid(7ec109995bd12834794f8eebaf1e7d91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/InteractionSystem/Teleport/Materials URP/URPTeleportAreaVisibleBright.mat using Guid(7ec109995bd12834794f8eebaf1e7d91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4b5908e62e5f8eef2d40e911523b18e') in 0.023675 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/SteamVR/InteractionSystem/Teleport/Materials URP/URPTeleportPointHighlighted.mat
+  artifactKey: Guid(92c458d658d953f4588489c06de30b56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/InteractionSystem/Teleport/Materials URP/URPTeleportPointHighlighted.mat using Guid(92c458d658d953f4588489c06de30b56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b79f0f1cb16ff9f4c84506bc868c049') in 0.023362 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/SteamVR/Models/Materials/vr_glove_color.mat
+  artifactKey: Guid(cbe636ca800df264c9fb91dc95fbd9e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/Models/Materials/vr_glove_color.mat using Guid(cbe636ca800df264c9fb91dc95fbd9e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a38c4a12228af807135c214177e1edc') in 0.042254 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.033395 seconds.
+  path: Assets/SteamVR/Materials/workshop.mat
+  artifactKey: Guid(712cd3a70a5a1da41a6594aac6a97abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/Materials/workshop.mat using Guid(712cd3a70a5a1da41a6594aac6a97abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1e3f69d62978ca104c12e857a828d9b') in 0.050923 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.63 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 21 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (312.3 KB). Loaded Objects now: 2611.
+Memory consumption went from 65.1 MB to 64.8 MB.
+Total: 3.512100 ms (FindLiveObjects: 0.199000 ms CreateObjectMapping: 0.108600 ms MarkObjects: 2.983100 ms  DeleteObjects: 0.220400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3594.740605 seconds.
+  path: Assets/Engine/Materials/Building/sofa.mat
+  artifactKey: Guid(0ae5b98dfbe9a9443a9d4d61bb45a706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Engine/Materials/Building/sofa.mat using Guid(0ae5b98dfbe9a9443a9d4d61bb45a706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9db356609d6a999e4d943dac2d24f718') in 0.024047 seconds 
